@@ -2,9 +2,9 @@
     margin: 10px;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Luminari font";
+    font-family: "Comic Sans MS";
     background: #2B061E;
-    ;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -16,24 +16,55 @@ nav {
 }
 
 ul{
-    display: flex
+    display: flex;
     list-style: none;
-    width: 25%;
+    width: 40%;
     justify-content: space-between;
 }
 
 main{
-    width:1200px
+    width:1200px;
     margin: auto;
     text-align: center;
 }
 
 h4 {
-    margin-top: 20px;
-    marigin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .profile-item {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#gallery{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prev,
+#next {
+    height:15px;
+    width: 15px;
+    background: none;
+    border: none;
+}
+
+#gallery-img {
+    width: 100%;
+}
+
+#prev:hover,
+#next:hover {
+    cursor: pointer;
+}
+
+.music {
+    font-size: 35px;
 }
